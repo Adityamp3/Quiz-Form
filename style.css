@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url("https://media.istockphoto.com/id/1218473959/vector/black-question-mark.jpg?s=612x612&w=0&k=20&c=ifwnh6ETDDshoL_vddFWbdbseFN0UrtYMi8JfQHBitQ="); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: yellowgreen;
+
+}
+
+h1{
+    margin: 0px 0px 20px 10px;
+}
+
+.quiz-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    /* width: auto; */
+    max-width: 450px;
+    height: auto;
+    background-color: white;
+    
+}
+
+.question{
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.option{
+    margin-left: 20px;
+}
+
+input{
+    margin-right: 5px;
+}
+
+.done{
+    text-align: center;
+    justify-content: center;
+}
+
+.submit, .reset{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset{
+    background-color: #f44336;
+}
+
+.submit:hover{
+    background-color: #35a73a;
+    /* opacity: 0.7; */
+}
+.reset:hover{
+    background-color: #dc4034;
+    /* opacity: 0.7; */
+}
